@@ -1,5 +1,6 @@
 {
   "name": "resume-builder",
+  "author": "Vivek Sharma",
   "private": true,
   "version": "0.0.0",
   "type": "module",
