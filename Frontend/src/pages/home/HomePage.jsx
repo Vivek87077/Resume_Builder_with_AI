@@ -14,7 +14,7 @@ function HomePage() {
   const dispatch = useDispatch();
   const handleClick = () => {
     window.open(
-      "https://github.com/Vivek87077/AI_Resume_Builder",
+      "https://github.com/Vivek87077/Resume_Builder_with_AI",
       "_blank"
     );
   };
