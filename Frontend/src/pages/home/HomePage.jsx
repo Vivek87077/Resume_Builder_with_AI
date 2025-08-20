@@ -18,6 +18,13 @@ function HomePage() {
       "_blank"
     );
   };
+  
+  const handleLearnMoreClick = () => {
+    window.open(
+      "https://github.com/Vivek87077/Resume_Builder_with_AI",
+      "_blank"
+    );
+  };
 
   useEffect(() => {
     const fetchResponse = async () => {
@@ -84,7 +91,7 @@ function HomePage() {
                 </svg>
               </a>
               <a
-                onClick={handleClick}
+                onClick={handleLearnMoreClick}
                 className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg bg-gray-100 rounded-2xl sm:w-auto sm:mb-0 cursor-pointer"
               >
                 Learn More
@@ -132,7 +139,7 @@ function HomePage() {
             &copy; 2025 Ai-Resume-Builder. All rights reserved.
           </p>
           <div>
-            <Button variant="secondary" onClick={handleClick}>
+            <Button variant="secondary" onClick={handleLearnMoreClick}>
               <FaGithub className="w-4 h-4 mr-1" />
               GitHub
             </Button>
